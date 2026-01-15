@@ -197,6 +197,11 @@
         <type>Currency</type>
     </fields>
     <label>Employee</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <displayFormat>Emp-{0000}</displayFormat>
         <label>Employee Number</label>
@@ -204,7 +209,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Employees</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
